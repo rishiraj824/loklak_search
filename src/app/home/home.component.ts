@@ -69,6 +69,7 @@ export class HomeComponent implements OnInit {
 				break;
 		}
 
+
 		if (event.metaKey || event.ctrlKey || event.altKey) {	// Combination of keys with control, alt and cmd
 			return;
 		}
@@ -78,5 +79,6 @@ export class HomeComponent implements OnInit {
 		}
 
 		this.router.navigateByUrl(`/search`, { skipLocationChange: true });
+
 	}
 }
