@@ -14,7 +14,10 @@ div.wrapper {
 	align-items: center;
 	width: 500px;
 	margin-top: -30vh;
-
+	img{
+		max-width:25%;
+		height:auto;
+	}
 	h1 {
 		font-weight: 300;
 		text-align: center;
@@ -118,18 +121,15 @@ div.wrapper {
 	}
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:880px) {
 	div.wrapper {
-	margin-top:20px;
 		div.search-form {
-			min-width:300px;
-
-
-			
+			min-width:260px;
+			margin: 20px 15px 20px 15px;		
 
 
 				input{
-				min-width : 250px !important;
+				min-width : 230px !important;
 			}
 
 		}
