@@ -7,17 +7,12 @@
 			<a [href]="shard.linkTo" target="_blank">{{shard.text}}</a>
 		</span>
 		<span *ngIf="shard.type === 2"> <!-- Hashtag -->
-<<<<<<< HEAD
+
 			<a [routerLink]="shard.linkTo" [queryParams]="shard.queryParams" (click)="reload()">{{shard.text}}</a>
 		</span>
 		<span *ngIf="shard.type === 3"> <!-- Mention -->
 			<a [routerLink]="shard.linkTo" [queryParams]="shard.queryParams" (click)="reload()">{{shard.text}}</a>
-=======
-			<a [routerLink]="shard.linkTo" [queryParams]="shard.queryParams">{{shard.text}}</a>
-		</span>
-		<span *ngIf="shard.type === 3"> <!-- Mention -->
-			<a [routerLink]="shard.linkTo" [queryParams]="shard.queryParams">{{shard.text}}</a>
->>>>>>> upstream/master
+
 		</span>
 	</span>
 </div>

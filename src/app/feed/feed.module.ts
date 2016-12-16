@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-<<<<<<< HEAD
-import { FormsModule } from '@angular/forms';
-=======
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
->>>>>>> upstream/master
 
 import { LoklakFeedRoutingModule } from './feed-routing.module';
 
@@ -32,8 +28,6 @@ import { FeedLinkerComponent } from './feed-linker/feed-linker.component';
 		 */
 		FormsModule,
 
-<<<<<<< HEAD
-=======
 		/**
 		 * `ReactiveFormsModule` declares all the important providers and directives
 		 * for the "Model Driven Forms" which are easier to setup and test.
@@ -43,7 +37,7 @@ import { FeedLinkerComponent } from './feed-linker/feed-linker.component';
 		/**
 		 * Defines the routes at `feed` level of application.
 		 */
->>>>>>> upstream/master
+
 		LoklakFeedRoutingModule,
 
 		/**

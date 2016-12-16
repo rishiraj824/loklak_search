@@ -74,18 +74,9 @@ describe('Component: Feed', () => {
 				FeedHeaderStubComponent,
 				FeedFooterStubComponent,
 				FeedCardStubComponent,
-<<<<<<< HEAD
-				FooterComponentStubComponent,
-				FeedNotFoundStubComponent,
-				FeedLinkerStubComponent
-			],
-			providers: [
-				{ provide: SearchService, useClass: SearchServiceStub }
-=======
 				FooterStubComponent,
 				FeedNotFoundStubComponent,
 				FeedLinkerStubComponent
->>>>>>> upstream/master
 			]
 		});
 	});
@@ -104,7 +95,7 @@ describe('Component: Feed', () => {
 		expect(compiled.querySelector('feed-header')).toBeTruthy();
 	}));
 
-	it('should have an app-footoer component', async(() => {
+	it('should have an app-footer component', async(() => {
 		let fixture = TestBed.createComponent(FeedComponent);
 		let component = fixture.debugElement.componentInstance;
 		let compiled = fixture.debugElement.nativeElement;
