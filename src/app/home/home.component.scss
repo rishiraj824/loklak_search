@@ -84,7 +84,7 @@ div.wrapper {
 			box-shadow: 0 3px 8px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 	}
 	.search-btn:hover{
-			background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+			background-image: -webkit-gradient(linear,left to bottom,left bottom,from(#f8f8f8),to(#f1f1f1));
 		    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
 		    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 		    background-color: #f8f8f8;
@@ -96,7 +96,7 @@ div.wrapper {
 
 		}
 		.search-btn{
-			background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+			background-image: -webkit-gradient(linear,left to bottom,left bottom,from(#f5f5f5),to(#f1f1f1));
 		    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
 		    -webkit-border-radius: 2px;
 		    -webkit-user-select: none;
