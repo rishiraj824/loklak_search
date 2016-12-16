@@ -1,11 +1,11 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
-import { FeedLinkerComponent } from './feed-linker.component';
+import { FeedFooterComponent } from './feed-footer.component';
 
-describe('Component: FeedLinker', () => {
+describe('Component: FeedFooter', () => {
 	it('should create an instance', () => {
-		let component = new FeedLinkerComponent();
+		let component = new FeedFooterComponent();
 		expect(component).toBeTruthy();
 	});
 });
