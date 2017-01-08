@@ -1,0 +1,24 @@
+<div class="wrapper">
+	<div class="logo-and-form">
+		<a routerLink="/">
+			<div class="logo">
+				<img src="{{bannerImageUrl}}" alt="Loklak Banner" width="115" height="25" />
+			</div>
+		</a>
+		<div class="search-form">
+			<div class="input-group">
+				<label for="search">Search On Loklak.</label>
+
+				<input type="text" class="form-control" id="search" name="search" required
+								[formControl]="searchInputControl" placeholder="I'm feeling awesome!" (keyup.enter)="searchEvantEmitter.emit()" />
+
+				<span class="input-group-btn">
+					<button class="btn btn-default" role="button" type="button" tabindex="-1"
+									aria-roledescription="Search the web using loklak search." (click)="searchEvantEmitter.emit()">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
